@@ -1,90 +1,70 @@
-# SQL Database System
+# 🥖 Bakery Database System
 
-This project presents a comprehensive design and implementation of a relational database system using Microsoft SQL Server and Oracle. It includes data modeling, database creation scripts, advanced stored procedures, triggers, reporting functions, and more.
-
----
-
-## 📌 Table of Contents
-
-- Project Background
-- Requirements
-- Conceptual Model (Chen)
-- Logical and Physical Design
-- SQL Scripts for Tables, Indexes, and Data
-- Views
-- Stored Procedures & Functions for Reporting and Data Browsing
-- Triggers and Data Modifications
-- Database Schema
-- Conclusions
+A comprehensive relational database project for a bakery company, implemented using Microsoft SQL Server and Oracle.  
+Includes data modeling, scripts for database structure, procedures, functions, triggers, and reports.
 
 ---
 
-## 📘 Project Background
+## 📎 Documentation
 
-The goal of this project is to design and implement a relational database system with real-world features such as data browsing, reporting, batch updates, and full integrity control through triggers and stored logic.
+Complete project documentation, including all models, diagrams, scripts, and descriptions, is available here:  
+[Project documentation for bakery (DOCX)](https://github.com/PawWoz/bakery-database-system/blob/main/Programowanie-BD-dokumentacja-piekarnia.docx)
 
----
+### 📑 Table of Contents
 
-## 📋 Requirements
-
-### Functional:
-- Generate reports for key business areas
-- Enable mass updates and batch operations
-- Provide data browsing functionality
-
-### Non-functional:
-- Compatible with both MS SQL Server and Oracle
-- Maintain referential integrity through triggers
-- Optimize for performance using indexes
-
----
-
-## 🧠 Conceptual Model (Chen)
-
-- ER diagram presenting main entities and relationships.
-
----
-
-## 🗃️ Logical and Physical Design
-
-- List of entities and attributes
-- Table structure with data types
-- Logical and physical relationships
-
----
-
-## 📜 SQL Scripts
-
-Includes creation of tables, indexes, views, stored procedures, functions, triggers, and data population for both MS SQL Server and Oracle environments.
+1. Project Background  
+2. Functional and Non-functional Requirements  
+3. Conceptual Model (Chen)  
+4. List of Logical Entities  
+5. List of Attributes  
+6. List of Relationships  
+7. Logical Model  
+8. Physical Model  
+9. List of Physical Tables  
+10. SQL Scripts Creating Table Structures and Relations (MS SQL Server)  
+11. List of Indexes  
+12. Scripts Creating Indexes  
+13. List of Views  
+14. Scripts Creating Views  
+15. SQL Scripts Inserting Sample Data  
+16. List of Procedures and Functions for Reporting  
+17. Scripts Creating Procedures and Functions for Reporting  
+18. List of Functions and Procedures for Data Browsing  
+19. Scripts Creating Functions and Procedures for Data Browsing  
+20. List of Procedures for Bulk Data Updates  
+21. Scripts Creating Procedures for Bulk Data Updates  
+22. Scripts Creating Procedures and Triggers for Data Modification  
+23. Database Schema in MS SQL Server  
+24. SQL Scripts Creating Table Structures, Relations, and Sample Data (Oracle)  
+25. Conclusions and Summary  
 
 ---
 
-## 👁️ Views
+## 📖 Project Background
 
-Reusable queries for reporting and simplified data access.
+The project was created for a real bakery company that needed an effective tool for managing its operations.  
+The bakery database collects data related to employees, suppliers, ingredients, products, orders, delivery vehicles, and other company resources.
 
----
-
-## 🔄 Stored Procedures & Functions
-
-Used for generating reports, fetching specific data views, and handling business logic.
+The system enables monitoring stock levels, tracking orders, and generating reports to support business decisions and improve daily operations.
 
 ---
 
-## 🧬 Triggers and Data Modifications
+## 🎯 Functional Requirements
 
-Automatic data validation and consistency enforcement.
+- Registering and updating store data  
+- Managing product returns  
+- Adding, deleting, and updating employee data  
+- Registering deliveries of ingredients and suppliers  
+- Managing warehouses and orders  
+- Registering delivery vehicles  
 
 ---
 
-## 📊 Database Schema
+## ⚙️ Non-functional Requirements
 
-Visual schema of all tables and relations.
-
----
-
-## ✅ Conclusions
-
-This project demonstrates an end-to-end implementation of a fully-featured database system using both SQL Server and Oracle, complete with stored logic and multi-layered data access methods.
+- **Data Integrity:** consistency, avoiding duplication, and correct relationships between entities  
+- **Usability:** clear and understandable interface and messages  
+- **Performance:** fast data searching and filtering  
+- **Scalability:** ability to expand and handle large amounts of data  
 
 ---
