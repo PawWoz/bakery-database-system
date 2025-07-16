@@ -3,6 +3,17 @@
 A comprehensive relational database project for a bakery company, implemented using Microsoft SQL Server and Oracle.  
 Includes data modeling, scripts for database structure, procedures, functions, triggers, and reports.
 
+<div align="center">
+
+[![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/en-us/sql-server)
+[![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)](https://www.oracle.com/)
+[![T-SQL](https://img.shields.io/badge/T--SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)](https://learn.microsoft.com/en-us/sql/t-sql/language-reference?view=sql-server-ver16)
+[![PL/SQL](https://img.shields.io/badge/PL--SQL-F80000?style=for-the-badge&logo=oracle&logoColor=white)](https://www.oracle.com/database/technologies/appdev/plsql.html)
+[![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sqlite&logoColor=white)](https://en.wikipedia.org/wiki/SQL)
+
+</div>
+
+
 ---
 
 ## 📎 Documentation
